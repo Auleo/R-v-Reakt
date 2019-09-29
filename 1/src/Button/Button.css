@@ -1,0 +1,12 @@
+button {
+  background: transparent;
+  border: 2px dashed white;
+  color:white;
+  transform: 1,5 s;
+  transition: rotate(30deg);
+}
+
+Button:hover {
+  background: white;
+  color:black;
+}

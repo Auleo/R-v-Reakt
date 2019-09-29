@@ -1,15 +1,20 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import MyBox from './MyBox/MyBox';
+
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <MyBox></MyBox>
+        <MyBox></MyBox>
+        <MyBox></MyBox>
+        <MyBox></MyBox>
+        <MyBox></MyBox>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -18,6 +23,7 @@ function App() {
         >
           Learn React
         </a>
+        <Button buttonText={'Przycisk w App'}> </Button>
       </header>
     </div>
   );

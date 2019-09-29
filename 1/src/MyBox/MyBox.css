@@ -1,0 +1,14 @@
+
+.my-box {
+  background: red;
+  border:1px dashed rgb(5, 7, 3);
+  padding: 2% 2%;
+}
+.my-box-header{
+  font-size: 50px;
+  color:coral;
+}
+.my-box-header-secondary {
+  font-size:30px;
+  color:orange;
+}
