@@ -24,6 +24,7 @@ function App() {
           Learn React
         </a>
         <Button buttonText={'Przycisk w App'}> </Button>
+        
       </header>
     </div>
   );

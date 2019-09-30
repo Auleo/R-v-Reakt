@@ -6,7 +6,7 @@ class MyBox extends React.Component{
   constructor() {
     super();
   }
-
+  
   render() {
     return <div className={'my-box'}>Tra ta
     <h1 className="my-box-header"> landing-page-text-h1"</h1>

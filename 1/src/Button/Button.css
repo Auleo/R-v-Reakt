@@ -5,7 +5,6 @@ button {
   transform: 1,5 s;
   transition: rotate(30deg);
 }
-
 Button:hover {
   background: white;
   color:black;
